@@ -1,22 +1,30 @@
 
-* Kodluyoruz: Beginner Front-End Web Development Path
-- Git Kullanımı
+# Kodluyoruz: İlk Repo
 
-  Bu eğitimde GIT kurulumu ve kullanımı, Gıthub ve GIT farkı, terminal komutlarıyla gıthub üzerinden repo açmak ve repodaki çalışmaları yönetmek,ekibimize açık hale getirmek, VScode üzerinden terminal kullanmak gibi çalışmalar yaptık.
+  Bu repo, [Kodlıyoruz](https://www.kodluyoruz.org/) Front-End eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası ve bir adet de index.html barındırıyor.
 
-Markdown kullanarak README.md dosyası oluşturmayı öğrendik.
+  ## Installation
+  
+  Öncelikle projeyi klonlayın.
 
-# Kullanılan Araçlar
+```bash
+git clone hgit clone [https://github.com/inci94/kodluyoruzilkrepo.git](https://github.com/inci94/kodluyoruzilkrepo.git)
 
-- IDE olarak Vscode
+## Usage
 
-- Versiyon Kontrol Sistemi olarak GIT
+Projeyi cloneladıktan sonra Visual Studio programında açınız.
 
-- Servis olarak Github
+linux için:
 
-## Eğitimler: Hakan Yalçınkaya 
+```bash
+cd kodluyoruzilkrepo
+code .
 
-https://www.skillcamp.dev/paths/baslangic-seviye-frontend-web-development-patikasi
+## Contributing
 
+Pull requestler kabul edilir. Büyük değişiklikler için, önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
+
+## LICENSE
+MIT  
 
 
