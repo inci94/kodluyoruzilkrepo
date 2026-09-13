@@ -1,7 +1,8 @@
 
 * Kodluyoruz: Beginner Front-End Web Development Path
 - Git Kullanımı
-Bu eğitimde GIT kurulumu ve kullanımı, Gıthub ve GIT farkı, terminal komutlarıyla gıthub üzerinden repo açmak ve repodaki çalışmaları yönetmek,ekibimize açık hale getirmek, VScode üzerinden terminal kullanmak gibi çalışmalar yaptık
+
+  Bu eğitimde GIT kurulumu ve kullanımı, Gıthub ve GIT farkı, terminal komutlarıyla gıthub üzerinden repo açmak ve repodaki çalışmaları yönetmek,ekibimize açık hale getirmek, VScode üzerinden terminal kullanmak gibi çalışmalar yaptık
 
 Markdown kullanarak README.md dosyası oluşturmayı öğrendik.
 
