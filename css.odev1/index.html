@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ile İlk Web Sayfası Denemesi</title>
+</head>
+
+<body>
+    <!--CSS Ayarları-->
+    <style>
+        body {
+            font-family: 'georgia', serif;
+            background-color: #FFF4F4
+        }
+
+        h1,
+        h2,
+        h3 {
+            @font-face {
+                font-family: 'Bahie Waonid';
+                src: url(NCLBahieWaonid-Regular.ttf) format(truetype);
+            }
+
+            color: #9564DD;
+        }
+
+        a {
+            color: #8C56D4;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            width: 1000px;
+            height: 800px;
+            object-fit: cover;
+            object-position: center;
+            border: 5px solid #BDB2FF;
+        }
+    </style>
+    <h1>İzlenir Bu</h1>
+    <h2>En beğenilen filmlerin sanatsal analizleri.</h2>
+    <br>
+    <h3>Parlak Yıldız(A Bright Star)Film İncelemesi</h3>
+    <p>Başrollerni Abbie Cornish ve Ben Whishaw'ın paylaştığı yönetmenin Andrew Motion'la ortak senaryosunu yazdığı bu
+        film İngiliz şair John Keats'in hayatından bir kesit sunuyor. Duygusal şiiirleriyle ünlü olan şairin
+        komşusuyla olan aşk hayatı dramatik bir biçimde işlenmiş. Fanny Brawne adındaki bu kadına yazdığı mektuplardan
+        yola çıkılarak onun gözünden anlatılan bu film yasın verdiği hüznü seyirciye muhteşem geçirmektedir.</p>
+    <a href="https://www.imdb.com/title/tt0810784/" target="_blank">
+        <img src="brightstar.jpg" alt="Bright Star Film Afişi">
+    </a>
+    <p>Bright Star(2009) Jane Campion yönetmenliğinde çekilmiş romantik bir filmdir.</p>
+    <hr>
+    <p>Romantik bir film olmasına rağmen karakterlerin birbirini tercih etmesi ve ayrılıkları mantık çerçevesinde
+        işlenmiş. Buna rağmen yaşadıkları duygusal yıkım izleyiciye olduça iyi aktarılıyor çünkü acının da mantıklı bir
+        gerekçesi vardır.Dönemin romantizm akımından hoşlananlar ve William Turner tablolarını sevenler tercih edebilir.
+        Campion'ın filmlerinde dokunsal hisler harekete geçer.Supreme melankolik bir anlatım hakimdir. Görseller onirik
+        olduğundan izleyici hüzünlü olmaz ama bir burukluk hisseder.Zerafet ve ağıt bir aradadır. Sonbaharda ya da
+        bulutlu bir bahar gününde derdiniz yokken dert sahibi gibi rollenmek isterseniz bu film iyi bir tercih olabilir
+        sizin için.</p>
+
+    <p>Jane Cmpion filmlerinden favorilerim bunlar <a href="https://google.com" target="_blank">incelemek
+            isterseniz...</a>
+    </p>
+    <ul type="circle">
+        <li>
+            Top of the Lake
+        </li>
+    </ul>
+    <ul type="circle">
+        <li>
+            The Power of the Dog
+        </li>
+    </ul>
+    <br>
+    <p>Keyifli seyirler...İzlemede kalın...</p>
+
+
+
+
+</body>
+
+</html>
