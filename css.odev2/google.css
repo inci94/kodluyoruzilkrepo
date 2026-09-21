@@ -1,5 +1,5 @@
 
-body { /**Kutu kutu düşünürsek en önce bütün kutularıniçinde yer aldığı arka plan rengi geliyor**/
+body { /**Kutu kutu düşünürsek en önce bütün kutuların içinde yer aldığı arka plan rengi geliyor**/
     background-color: #ffffff;
 }
 
@@ -44,8 +44,7 @@ margin: 10px auto;
     box-sizing: border-box;
    flex:1;
 }
-
-
+/**En alttaki yayın haklarıyla ilgili olan yazıyı da kutu olarak düşündüm ortalamak için**/
 .copyright {
     background-color: #ffff;
     text-align: center;
