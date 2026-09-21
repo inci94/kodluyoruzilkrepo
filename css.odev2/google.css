@@ -1,0 +1,54 @@
+
+body { /**Kutu kutu düşünürsek en önce bütün kutularıniçinde yer aldığı arka plan rengi geliyor**/
+    background-color: #ffffff;
+}
+
+img { /**Daha sonra tepede duran logonun büyüklüğü ve sayfanın ortasında durması için ayar yapıyoruz. Eskiden logo resim olarak eklenirmiş. Öyle yaptım**/
+    width:250px;
+    height: auto;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+/**Arama motorunun olduğu yeri ilk kutu olarak düşünürsek arka plan rengi ve kutuyu ortalama ayarı.**/
+.arama-alanı {
+    background-color: #a4a9a9;
+    text-align:center;
+    padding-bottom: 10px;
+
+}
+/**Arama alanları içindeki butonların büyüklüklerinin ayarı**/
+.arama-alanı button {
+    margin: 5px 5px 0 5px;   
+}
+/**Alt kutuların içindeki butonların ayarları**/
+.button {
+    display:flex;
+    justify-content: center;
+    gap: 0;
+    margin: 0;
+} 
+/**Alttaki mavi kutular bariz şekilde belli. Onların ortada durması ve büyüklük ayarları**/
+.alt-kutular {
+display: flex;
+justify-content: center;
+gap: 2px;
+width: 100%;
+margin: 10px auto;
+}
+/**Alttaki mavi kutuların renkleri ve içindeki yazıların büyüklük ve konumları**/
+.sol-kutu, .orta-kutu, .sağ-kutu {
+    background-color: #7ee5da;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+   flex:1;
+}
+
+
+.copyright {
+    background-color: #ffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
