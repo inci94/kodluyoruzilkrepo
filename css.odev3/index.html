@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Google</title>
+</head>
+
+<div class="panel">
+    <nav>
+        <ul class="header"> <!--sayfanın sağ tarafa aldığımız resim ve butonlarının olduğu alan-->
+            <li class="headerli"> <!--kendi fotoğraf ve github hesabımın linkinin olduğu alan-->
+                <a href="https://www.github.com/inci94" target="_blank">
+                    <img src="assets/profile-pic.jpg" class="profile-pic" alt="Profile Picture">
+                </a>
+            </li>
+            <li class="headerli">
+                <a href="https://www.google.com.tr/intl/en/about/products?tab=wh">
+                    <img src="assets/appsbutton.svg" class="apps-icon" alt="Apps">
+                </a>
+            </li>
+            <li class="headerli">
+                <a href="https://www.google.com.tr/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
+            </li>
+            <li class="headerli">
+                <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl">Gmail</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="container"> <!--Google arama butonunun olduğu kutucukları kapsayan bölüm-->
+    <img src="assets/logo.png" width="350px" alt="" /> <!--yeni logo kullanıldı-->
+</div>
+<div class="search-area">
+    <div class="search">
+        <div class="search-img"> <!-- Search ikonu çalışmıyordu. Yeni bir svg kodu ile değiştirildi -->
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                    d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z">
+                </path>
+            </svg>
+        </div>
+        <div class="input-enter"> <!-- arama alanının içindeki mikrofon ve arama ikonunun bulunduğu iç kısım-->
+            <div class="input-area">
+                <input type="text" class="input" maxlength="2048" autofocus="true" />
+            </div>
+            <div class="mic-img">
+                <img src="assets/voicelogo.png" alt="Voice Search" class="mic-icon">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="buttons"> <!-- arama alanının altındaki butonların olduğu kısım-->
+    <a href=""><button class="googlesearch">Google Search</button></a>
+    <a href=""><button class="feelinglucky">I'm Feeling Lucky</button></a>
+</div>
+
+<nav>
+    <ul class="footer"> <!--en alttaki bantta yer alan butonların olduğu kısım-->
+        <li class="footerli"><a href="...">Advertising</a></li>
+        <li class="footerli"><a href="...">Business</a></li>
+        <li class="footerli"><a href="...">About</a></li>
+        <li class="footerli"><a href="...">How Search works</a></li>
+        <li class="footerli push-right"><a href="...">Privacy</a></li>
+        <li class="footerli"><a href="...">Terms</a></li>
+        <li class="footerli"><a href="...">Settings</a></li>
+    </ul>
+</nav>
+</body>
+
+</html>

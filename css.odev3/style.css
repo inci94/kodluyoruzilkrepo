@@ -1,0 +1,159 @@
+ul, li { list-style: none; }   /* li etiketlerinin noktaları kaldırır */
+
+body { margin: 0; font-family: arial, sans-serif; }
+
+/* HEADER: alt alta, sağ üstte */
+.header {
+  float: right;               /* Üst kısmı sağa alır */
+  margin: 50px 20px 0 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.headerli a {
+  display: block;
+  color: #5f6368;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.headerli a:hover { text-decoration: underline; }
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;         /* fotoğraf yarıçap özelliğiyle yuvarlatılırs */
+  object-fit: cover;
+  display: block;
+}
+
+.apps-icon { width: 80px; height: 30px; display: block; }
+
+/* LOGO */
+.container { text-align: center; margin: 120px 0 30px; }
+
+/* ARAMA ALANI */
+.search-area {
+  display: flex;
+  align-items: center;
+  width: 560px;
+  height: 39px;
+  margin: 0 auto;
+  padding: 5px 8px 0 14px; 
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  color: rgb(41, 44, 50);
+}
+
+.search-area:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  height: 44px;
+  padding: 0px 13px;
+  font-size: 13px;
+  color: rgb(41, 44, 50);
+}
+
+.search-img { display: block; align-items: center; width: 26.2px; cursor: pointer; }
+.search-img svg { width: 20px; height: 20px; fill: #9aa0a6; }
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  height: 39px;
+}
+
+.input-area {
+  width: 480px;            /* arama alanında yazı yazılan yerin genişliği */
+  height: 34px;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  width: 480px;               /* arama alanı genişliği */
+  height: 34px;
+  border: none;               /* kenarlığı kaldırıldı */
+  font-size: 15px;
+  background: transparent;
+  padding: 0;
+}
+
+.mic-img { /* mikrofon ikonunun olduğu alan */
+  margin: 0px;
+  padding: 0px 8px 0px 8px;
+  border:0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1px;
+  cursor: pointer;
+}
+
+.mic-icon { width: 24px; height: 24px; } /* mikrofon ikonunun boyutları */
+
+/* BUTONLAR */
+.buttons {
+  text-align: center;
+  margin-top: 28px;          /* arama alanına uzaklık */
+}
+
+.buttons button {
+  height: 36px;
+  box-sizing: border-box;
+  padding: 0 16px;           /* yazının sağ-sol iç boşluğu */
+  margin-top: 11px;          /* butonlara üstten boşluk */
+  margin-right: 8px;         /* butonlara sağdan boşluk */
+  font-family: Arial, sans-serif;
+  font-size: 14px;        /* buton içindeki yazıların büyüklüğü */
+  color: #5f6368; /* buton yazı rengi */
+  background-color: #f8f9fa;
+  border: 1px solid #f2f2f2; /* buton kenar kalınlığı ve rengi */
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28); /* butonların gölgesi */
+  cursor: pointer;
+}
+
+.buttons button:hover { border-color: #dadce0; }
+
+/* FOOTER */
+.footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right:0;
+  width: 1139px;
+  height: 40px;
+  margin: 0;
+  padding: 0px;
+  background-color: #f2f2f2;  /* değiştirilmesi istenen renk */
+  border-top: 1px solid #dadce0;
+  box-sizing: border-box;
+}
+
+.footerli a {
+  display: inline-block;
+  line-height:40px;
+  width:117px;
+  padding: 0px 0px 0px 27px;
+  color: #5f6368;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footerli a:hover { text-decoration: underline; }
+
+.push-right { margin-left: auto; }   /* Privacy, Terms, Settings sağa yaslanır */
